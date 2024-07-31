@@ -1,0 +1,36 @@
+.slide-container {
+  overflow-x: hidden;
+}
+
+.slide-container > * {
+  transform: translateX(100%);
+  opacity: 0;
+  animation: blinkIn 0.8s ease-in-out forwards;
+}
+
+@keyframes blinkIn {
+  0%,
+  25% {
+    opacity: 0;
+  }
+  30%,
+  55% {
+    opacity: 1;
+    transform: translateX(0);
+    /* Modify glitch effect to blend with terminal style */
+    background-color: #000; /* Black background */
+    box-shadow: 0 0 10px 2px #0f0; /* Green outline */
+    color: #0f0; /* Green text */
+  }
+  60%,
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Example tab content styles */
+.tab-content {
+  padding: 10vmin; /* Use vmin for consistent padding */
+  color: #0c0;
+}

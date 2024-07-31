@@ -1,13 +1,13 @@
 // App.jsx
 
 import profilePic from '../assets/me-pixelicious (2).png';
-import { Header, TabViewer, Footer } from '../components/shared/index';
+import { Header, View, Footer } from '../components/shared/index';
 
 const App = () => {
   return (
     <div className="App">
       <Header profilePic={profilePic}></Header>
-      <TabViewer></TabViewer>
+      <View></View>
       <Footer></Footer>
     </div>
   );

@@ -1,0 +1,340 @@
+{
+  "workExperiences": [
+    {
+      "jobTitle": "Frontend Developer",
+      "company": "Code PDX",
+      "startDate": "Present",
+      "endDate": "",
+      "summary": "Proactively opening, documenting, and closing issues for PASS, an application acting as virtual document storage for houseless individuals.",
+      "tasks": [
+        {
+          "task": "Corresponding with the UX team to translate Figma designs to responsive HTML/CSS layouts and Material UI React (JavaScript/TypeScript) components.",
+          "applicableSkills": ["HTML/CSS", "React", "JavaScript", "TypeScript"]
+        },
+        {
+          "task": "Incrementally transitioning JavaScript implementations to TypeScript.",
+          "applicableSkills": ["JavaScript", "TypeScript"]
+        }
+      ]
+    },
+    {
+      "jobTitle": "Founding Developer",
+      "company": "Mindful Employment",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Kickstarted development of a mobile app set to target individuals navigating unemployment in the tech industry.",
+      "tasks": [
+        {
+          "task": "Using React Native Expo and Firebase leveraging GraphQL for efficient data management.",
+          "applicableSkills": ["React Native", "Expo", "Firebase", "GraphQL"]
+        }
+      ]
+    },
+    {
+      "jobTitle": "Lead Frontend Developer",
+      "company": "NeuralGuardian",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Developing the frontend portion of an Angular web application slotted to protect unaware users from malicious network privacy infringement.",
+      "tasks": [
+        {
+          "task": "Developing the frontend portion of an Angular web application.",
+          "applicableSkills": ["Angular"]
+        }
+      ]
+    },
+    {
+      "jobTitle": "Lead Frontend Developer",
+      "company": "Static Media",
+      "startDate": "08/2017",
+      "endDate": "05/2023",
+      "summary": "Led the development, design, and maintenance of over 5000 content advertising widgets.",
+      "tasks": [
+        {
+          "task": "Led the development, design, and maintenance of over 5000 content advertising widgets using HTML/CSS and React (JavaScript / TypeScript).",
+          "applicableSkills": ["HTML/CSS", "React", "JavaScript", "TypeScript"]
+        },
+        {
+          "task": "Engineered and maintained a comprehensive library of reusable React components and context providers.",
+          "applicableSkills": ["React", "Component Design"]
+        },
+        {
+          "task": "Designed all widget interfaces with modern HTML/CSS and responsive design techniques.",
+          "applicableSkills": ["HTML/CSS", "Responsive Design"]
+        },
+        {
+          "task": "Utilized a custom-built performance dashboard to regularly assess and optimize widget CTR.",
+          "applicableSkills": ["Performance Optimization", "A/B Testing"]
+        },
+        {
+          "task": "Applied modern web optimizations such as lazy loading and responsive images.",
+          "applicableSkills": ["Web Optimization"]
+        },
+        {
+          "task": "Communicated technical concepts with the Business Development team.",
+          "applicableSkills": ["Communication"]
+        },
+        {
+          "task": "Selected as the first point-of-contact for WordPress-related issues.",
+          "applicableSkills": ["WordPress"]
+        }
+      ]
+    },
+    {
+      "jobTitle": "Software Engineer",
+      "company": "Verizon",
+      "startDate": "07/2015",
+      "endDate": "08/2016",
+      "summary": "Spearheaded the development of a .NET application configuration tool.",
+      "tasks": [
+        {
+          "task": "Spearheaded the development of a .NET application configuration tool.",
+          "applicableSkills": [".NET", "C#", "SQL"]
+        },
+        {
+          "task": "Engineered .NET applications with C#/SQL backend logic RESTful APIs MySQL database integration and stateless design.",
+          "applicableSkills": [".NET", "C#", "SQL", "RESTful APIs", "MySQL"]
+        },
+        {
+          "task": "Developed a data management interface in an Angular (JavaScript) MVC framework.",
+          "applicableSkills": ["Angular", "JavaScript", "MVC", "jUnit"]
+        }
+      ]
+    }
+  ],
+  "skillTypes": [
+    {
+      "type": "Frontend",
+      "skills": [
+        {
+          "skill": "HTML5/CSS3",
+          "proficiency": "Expert",
+          "yearsExperience": 8,
+          "workExperiences": [
+            {
+              "jobTitle": "Lead Frontend Developer - Static Media",
+              "applicableTasks": [
+                "Led the development, design, and maintenance of over 5000 content advertising widgets using HTML/CSS and React (JavaScript / TypeScript).",
+                "Designed all widget interfaces with modern HTML/CSS and responsive design techniques."
+              ]
+            },
+            {
+              "jobTitle": "Frontend Developer - Code PDX",
+              "applicableTasks": [
+                "Corresponding with the UX team to translate Figma designs to responsive HTML/CSS layouts and Material UI React (JavaScript/TypeScript) components."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "JavaScript/TypeScript",
+          "proficiency": "Expert",
+          "yearsExperience": 8,
+          "workExperiences": [
+            {
+              "jobTitle": "Lead Frontend Developer - Static Media",
+              "applicableTasks": [
+                "Led the development, design, and maintenance of over 5000 content advertising widgets using HTML/CSS and React (JavaScript / TypeScript)."
+              ]
+            },
+            {
+              "jobTitle": "Frontend Developer - Code PDX",
+              "applicableTasks": [
+                "Incrementally transitioning JavaScript implementations to TypeScript."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "React",
+          "proficiency": "Expert",
+          "yearsExperience": 7,
+          "workExperiences": [
+            {
+              "jobTitle": "Lead Frontend Developer - Static Media",
+              "applicableTasks": [
+                "Engineered and maintained a comprehensive library of reusable React components and context providers.",
+                "Led the development, design, and maintenance of over 5000 content advertising widgets using HTML/CSS and React (JavaScript / TypeScript)."
+              ]
+            },
+            {
+              "jobTitle": "Frontend Developer - Code PDX",
+              "applicableTasks": [
+                "Corresponding with the UX team to translate Figma designs to responsive HTML/CSS layouts and Material UI React (JavaScript/TypeScript) components."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "Angular",
+          "proficiency": "Advanced",
+          "yearsExperience": 3,
+          "workExperiences": [
+            {
+              "jobTitle": "Software Engineer - Verizon",
+              "applicableTasks": [
+                "Developed a data management interface in an Angular (JavaScript) MVC framework."
+              ]
+            },
+            {
+              "jobTitle": "Lead Frontend Developer - NeuralGuardian",
+              "applicableTasks": ["Developing the frontend portion of an Angular web application."]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Mobile",
+      "skills": [
+        {
+          "skill": "React Native",
+          "proficiency": "Advanced",
+          "yearsExperience": 2,
+          "workExperiences": [
+            {
+              "jobTitle": "Founding Developer - Mindful Employment",
+              "applicableTasks": [
+                "Using React Native Expo and Firebase leveraging GraphQL for efficient data management."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Backend/Cloud",
+      "skills": [
+        {
+          "skill": "Node/ExpressJS",
+          "proficiency": "Intermediate",
+          "yearsExperience": 3,
+          "workExperiences": []
+        },
+        {
+          "skill": "Firebase",
+          "proficiency": "Intermediate",
+          "yearsExperience": 2,
+          "workExperiences": [
+            {
+              "jobTitle": "Founding Developer - Mindful Employment",
+              "applicableTasks": [
+                "Using React Native Expo and Firebase leveraging GraphQL for efficient data management."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "C#/ASP.NET",
+          "proficiency": "Expert",
+          "yearsExperience": 5,
+          "workExperiences": [
+            {
+              "jobTitle": "Software Engineer - Verizon",
+              "applicableTasks": [
+                "Spearheaded the development of a .NET application configuration tool.",
+                "Engineered .NET applications with C#/SQL backend logic RESTful APIs MySQL database integration and stateless design."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "Python/PHP",
+          "proficiency": "Advanced",
+          "yearsExperience": 4,
+          "workExperiences": []
+        }
+      ]
+    },
+    {
+      "type": "Testing",
+      "skills": [
+        {
+          "skill": "ESLint/Prettier",
+          "proficiency": "Expert",
+          "yearsExperience": 4,
+          "workExperiences": []
+        },
+        {
+          "skill": "Jest",
+          "proficiency": "Intermediate",
+          "yearsExperience": 3,
+          "workExperiences": []
+        },
+        {
+          "skill": "jUnit",
+          "proficiency": "Advanced",
+          "yearsExperience": 3,
+          "workExperiences": [
+            {
+              "jobTitle": "Software Engineer - Verizon",
+              "applicableTasks": [
+                "Developed a data management interface in an Angular (JavaScript) MVC framework with lazy XML parsing and data caching reducing API calls server loads and load times while implementing jUnit tests for ensured performance consistency."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Databases",
+      "skills": [
+        {
+          "skill": "SQL/MySQL",
+          "proficiency": "Expert",
+          "yearsExperience": 5,
+          "workExperiences": [
+            {
+              "jobTitle": "Software Engineer - Verizon",
+              "applicableTasks": [
+                "Engineered .NET applications with C#/SQL backend logic RESTful APIs MySQL database integration and stateless design."
+              ]
+            }
+          ]
+        },
+        {
+          "skill": "MongoDB",
+          "proficiency": "Intermediate",
+          "yearsExperience": 2,
+          "workExperiences": []
+        },
+        {
+          "skill": "Firebase (NoSQL)",
+          "proficiency": "Intermediate",
+          "yearsExperience": 2,
+          "workExperiences": [
+            {
+              "jobTitle": "Founding Developer - Mindful Employment",
+              "applicableTasks": [
+                "Using React Native Expo and Firebase leveraging GraphQL for efficient data management."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "DevOps/Tools",
+      "skills": [
+        {
+          "skill": "Git/Version Control",
+          "proficiency": "Expert",
+          "yearsExperience": 5,
+          "workExperiences": []
+        },
+        {
+          "skill": "Commitizen",
+          "proficiency": "Intermediate",
+          "yearsExperience": 2,
+          "workExperiences": []
+        },
+        {
+          "skill": "JSDocs",
+          "proficiency": "Intermediate",
+          "yearsExperience": 2,
+          "workExperiences": []
+        }
+      ]
+    }
+  ]
+}

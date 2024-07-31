@@ -33,10 +33,13 @@ const Header = ({ profilePic }) => {
       <nav className="nav-bar">
         <ul>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/intro">.Intro</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/exp-log">.ExperienceLog</Link>
+          </li>
+          <li>
+            <Link to="/sidequests">.Sidequests</Link>
           </li>
         </ul>
       </nav>

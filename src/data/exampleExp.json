@@ -1,0 +1,48 @@
+{
+  "jobTitle": "Lead Frontend Developer",
+  "company": "Static Media",
+  "startDate": "08/2017",
+  "endDate": "05/2023",
+  "summary": "Led the development, design, and maintenance of over 5000 content advertising widgets.",
+  "tasks": [
+    {
+      "task": "Led the development, design, and maintenance of over 5000 content advertising widgets using HTML/CSS and React (JavaScript / TypeScript).",
+      "applicableSkills": ["HTML/CSS", "React", "JavaScript", "TypeScript"]
+    },
+    {
+      "task": "Engineered and maintained a comprehensive library of reusable React components and context providers.",
+      "applicableSkills": ["React", "Component Design"]
+    },
+    {
+      "task": "Designed all widget interfaces with modern HTML/CSS and responsive design techniques.",
+      "applicableSkills": ["HTML/CSS", "Responsive Design"]
+    },
+    {
+      "task": "Utilized a custom-built performance dashboard to regularly assess and optimize widget CTR.",
+      "applicableSkills": ["Performance Optimization", "A/B Testing"]
+    },
+    {
+      "task": "Applied modern web optimizations such as lazy loading and responsive images.",
+      "applicableSkills": ["Web Optimization"]
+    },
+    {
+      "task": "Communicated technical concepts with the Business Development team.",
+      "applicableSkills": ["Communication"]
+    },
+    {
+      "task": "Selected as the first point-of-contact for WordPress-related issues.",
+      "applicableSkills": ["WordPress"]
+    }
+  ],
+  "requiredSkills": [
+    "React",
+    "Component Design",
+    "HTML/CSS",
+    "Responsive Design",
+    "Performance Optimization",
+    "A/B Testing",
+    "Web Optimization",
+    "Communication",
+    "WordPress"
+  ]
+}

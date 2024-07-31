@@ -1,0 +1,101 @@
+/* pip-boy.css */
+
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.screen {
+  animation: colorPulse 5s infinite ease-in-out;
+  background-image: radial-gradient(#010, #010);
+  box-shadow: 0 0 5vmin 1vmin #000 inset;
+  box-sizing: border-box;
+  font-family: 'Fira Mono', monospace;
+  font-size: 20px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10vmin;
+  width: 100vw;
+}
+
+/* ... (Other Pip-Boy CSS elements like colorPulse, blink) ... */
+
+/* Tab Content Styles */
+.screen > * {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.screen > *[data-active='true'] {
+  animation: glitchSaturateFade 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes glitchSaturateFade {
+  0% {
+    opacity: 0;
+    filter: saturate(0);
+  }
+  10% {
+    opacity: 1;
+    filter: saturate(2);
+    text-shadow:
+      0.1rem 0 0 #0f0,
+      -0.1rem 0 0 #0f0;
+  }
+  20%,
+  30% {
+    opacity: 0;
+    filter: saturate(0);
+  }
+  40% {
+    opacity: 1;
+    filter: saturate(2);
+  }
+  50% {
+    filter: saturate(1);
+  }
+  100% {
+    opacity: 1;
+    filter: saturate(1);
+    text-shadow: none;
+  }
+}
+
+/* Wave Effect (Restricted to TabViewer) */
+.tab-viewer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #0c0, transparent);
+  transform: translateY(-100%);
+  z-index: 10;
+  width: inherit; /* Force width to match parent */
+  overflow: hidden; /* Prevent the wave from overflowing */
+}
+
+.tab-viewer.activate-wave::before {
+  animation: waveTransition 0.8s ease-out forwards;
+}
+
+@keyframes waveTransition {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

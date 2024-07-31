@@ -16,6 +16,10 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 code {
@@ -25,6 +29,6 @@ code {
 /* For Universal use */
 @import './App.css';
 @import './header.css';
-@import './content.css';
+@import './tabViewer.css';
 @import './footer.css';
 @import './dialogue.css';
