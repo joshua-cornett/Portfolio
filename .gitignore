@@ -11,8 +11,13 @@
 # production
 /build
 
+# private data and encryption
+/private
+encrypt.js
+
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local

@@ -1,0 +1,15 @@
+/* src\styles\SkillDetails.css
+*/
+
+.skill-type-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  /* Add any other styles to match your original <h3> */
+}
+
+.skill-type-button h3 {
+  /* Style the <h3> within the button as needed */
+}

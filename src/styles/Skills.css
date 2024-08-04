@@ -1,0 +1,59 @@
+/* src\styles\Skills.css
+*/
+
+.skill-list {
+  /* Style the overall skill list container */
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-type {
+  /* Style the skill type container */
+  margin-bottom: 5px;
+  border-bottom: 1px solid #0f0; /* Add a subtle divider */
+}
+
+.skill-type-button {
+  /* Style the button for expanding/collapsing skill types */
+  background: none;
+  border: none;
+  padding: 5px 0; /* Add some padding for better click target */
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center;
+}
+
+.skill-type-button h3 {
+  /* Style the skill type heading */
+  flex-grow: 1; /* Allow the heading to take up available space */
+}
+
+.expand-icon {
+  /* Style the expand/collapse icon */
+  margin-left: 5px;
+}
+
+.skill-items {
+  /* Style the list of skills within an expanded skill type */
+  margin-top: 5px;
+  padding-left: 15px; /* Add some indentation */
+  list-style: none;
+}
+
+.skill-item {
+  /* Style individual skill items */
+  margin-bottom: 3px;
+}
+
+.skill-name {
+  /* Style the skill name */
+  font-weight: bold;
+}
+
+.skill-proficiency {
+  /* Style the skill proficiency */
+  color: #0f0; /* Example: Highlight proficiency in a brighter green */
+}

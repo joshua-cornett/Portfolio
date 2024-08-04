@@ -1,0 +1,43 @@
+/* src\sandbox\VerticalCarousel.css
+/* View.css or your main CSS file */
+
+.vertical-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Add more styles for the overall carousel container */
+}
+
+.vertical-carousel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Add styles for the list container */
+}
+
+.vertical-carousel li {
+  padding: 5px 10px;
+  cursor: pointer;
+  /* Add styles for individual list items */
+}
+
+.vertical-carousel li.active {
+  /* Add styles for the active/selected item */
+  background-color: #0f0; /* Example: Highlight the active item */
+}
+
+.vertical-carousel button {
+  /* Style the navigation buttons */
+}
+
+.vertical-carousel .carousel-item {
+  /* Style the carousel items (buttons) to look like list items */
+  display: block; /* Ensure they take up the full width */
+  width: 100%;
+  padding: 5px 10px;
+  text-align: left;
+  background: none; /* Remove default button background */
+  border: none;
+  cursor: pointer;
+  /* Add any other styles to match your original <li> elements */
+}

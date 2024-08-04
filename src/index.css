@@ -1,0 +1,54 @@
+/* src\index.css
+*/
+
+*,
+*::before,
+*::after {
+  color: cyan;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #000;
+  color: #00ffff;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: cyan;
+}
+
+/* For Universal use */
+@import './styles/App.css';
+@import './styles/Header.css';
+@import './styles/NavBar.css';
+@import './styles/View.css';
+@import './styles/Footer.css';
+@import './styles/Dialogue.css';
+@import './styles/Skills.css';
+@import './styles/SkillDetails.css';
+@import './styles/pip-boy.css';
